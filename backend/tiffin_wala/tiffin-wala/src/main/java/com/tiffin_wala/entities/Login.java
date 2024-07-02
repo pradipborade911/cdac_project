@@ -31,6 +31,7 @@ public class Login extends BaseEntity{
 	private String password ;
 	
 	@Enumerated(EnumType.STRING)
-	private UserRole userRole ;
+	private OTP otp ;
+	 
 	
 }
