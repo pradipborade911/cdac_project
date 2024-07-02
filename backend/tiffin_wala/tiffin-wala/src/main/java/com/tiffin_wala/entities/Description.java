@@ -43,6 +43,7 @@ public class Description {
 	@ManyToOne
 	@JoinColumn(name="vendor_id")
 	private Vendor vendor ;
-
+    
+	private String name;
 
 }
